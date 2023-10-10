@@ -1,0 +1,28 @@
+.panel__section {
+  margin-block: 40px;
+}
+.panel__wrapper {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.updown__arrow {
+  position: absolute;
+  top: 50%;
+  inset-inline-start: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--btn-bg-color);
+  color: var(--white);
+  font-size: 20px;
+  padding: 10px 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 6px;
+}
+@media only screen and (max-width: 1289px) {
+  .panel__wrapper {
+    justify-content: center;
+  }
+}

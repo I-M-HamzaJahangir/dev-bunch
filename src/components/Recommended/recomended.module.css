@@ -1,0 +1,16 @@
+.recommended__wrap {
+  margin-block: 40px;
+}
+.recommended__section {
+  margin-block: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section__head {
+  margin-bottom: 40px;
+}
+.section__head span {
+  color: var(--light-grey);
+}

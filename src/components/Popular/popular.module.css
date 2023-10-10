@@ -1,0 +1,17 @@
+.section__head {
+  margin-bottom: 40px;
+}
+.section__head span {
+  color: var(--light-grey);
+}
+.card__container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.card__container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}

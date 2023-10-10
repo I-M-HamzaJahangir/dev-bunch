@@ -1,0 +1,48 @@
+.hero__section {
+  margin-block: 40px;
+}
+.content__wrap {
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+.content__wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.content {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  max-width: 300px;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.content h3 {
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.content button {
+  align-self: flex-start;
+}
+
+@media only screen and (max-width: 767px) {
+  .content {
+    gap: 10px;
+  }
+  .content h3 {
+    font-size: 18px;
+  }
+  .content p {
+    font-size: 14px;
+  }
+  .content__wrap img {
+    min-height: 240px;
+  }
+}

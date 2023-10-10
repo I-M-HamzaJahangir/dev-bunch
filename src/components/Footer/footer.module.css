@@ -1,0 +1,16 @@
+.footer_section {
+  background-color: var(--white);
+}
+
+.footer__para {
+  color: #717171;
+}
+.footer_section ul li a {
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer__para {
+    max-width: 350px;
+  }
+}

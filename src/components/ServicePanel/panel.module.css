@@ -1,0 +1,47 @@
+.panel__wrap {
+  background: var(--white);
+  padding: 15px 25px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.options__wrap {
+  display: flex;
+  align-items: center;
+}
+.options__wrap hr {
+  height: 50px;
+  width: 1px;
+  background-color: var(--light-grey);
+  margin-inline: 1rem;
+}
+.option {
+  display: flex;
+  flex-direction: column;
+}
+.option select {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 14px;
+  padding-inline-end: 50px;
+  color: var(--light-grey);
+}
+.option select:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.option select option {
+  padding-inline: 8px;
+}
+@media only screen and (max-width: 767px) {
+  .panel__wrap {
+    padding-inline: 8px;
+  }
+  .options__wrap hr {
+    height: 50px;
+    margin-inline: 0.5rem;
+  }
+}
